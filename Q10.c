@@ -15,7 +15,7 @@ int main() {
     area = diagonal*diagonal/2;
 
     //saida
-    printf("A area do quadrado eh: %.2f", area);
+    printf("A area eh: %.2f", area);
 
     return 0;
 }
