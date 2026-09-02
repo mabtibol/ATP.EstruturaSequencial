@@ -4,7 +4,7 @@
 int main(){
 
     //declaracao de variaveis
-    float n1, n2, peso1, peso2, media;
+    float n1, n2, peso1, peso2, média;
     //entrada de dados
     printf("Digite a primera nota: ");
     scanf("%f", &n1);
@@ -15,9 +15,9 @@ int main(){
     printf("Digite o peso da segunda nota: ");
     scanf("%d", &peso2);
     //processamento
-    media = (n1*peso1 + n2*peso2)/(peso1 + peso2);
+    média = (n1*peso1 + n2*peso2)/(peso1 + peso2);
     //saida
-    printf("A media ponderada do aluno eh: %.2f", media);
+    printf("A média ponderada do aluno eh: %.2f", média);
 
     return 0;
 }
